@@ -1,0 +1,756 @@
+﻿is
+are
+equal
+be
+=
+
+plus
++
+
+minus
+-
+
+times
+splat
+pointer
+*
+
+divide
+divided by
+/
+
+modulo
+remainder
+%
+
+exponent
+**
+
+increment
+$glue ++
+
+decrement
+$glue --
+
+plus equals
++=
+
+minus equals
+-=
+
+times equals
+*=
+
+divide equals
+/=
+
+modulo equals
+%=
+
+exponent equals
+**=
+
+loose equals
+loose is equal to
+==
+
+equals
+is equal to
+===
+
+loose not equals
+loose is not equal to
+!=
+
+isn't
+is not
+not equals
+is not equal to
+!==
+
+below
+is below
+less than
+is less than
+<
+
+above
+is above
+greater than
+is greater than
+>
+
+at most
+is at most
+less than or equal to
+is less than or equal to
+<=
+
+at least
+is at least
+greater than or equal to
+is greater than or equal to
+>=
+
+not
+! $glue 
+
+and
+&&
+
+or
+||
+
+flippy
+bitwise not
+~ $glue 
+
+amp
+bitwise and
+address
+address of
+&
+
+pipe
+bitwise or
+|
+
+gable
+bitwise xor
+^
+
+shift left
+left shift
+<<
+
+shift right
+right shift
+>>
+
+unsigned shift right
+unsigned right shift
+>>>
+
+and equals
+&=
+
+or equals
+|=
+
+xor equals
+^=
+
+shift left equals
+left shift equals
+<<=
+
+shift right equals
+right shift equals
+>>=
+
+unsigned shift right equals
+unsigned right shift equals
+>>>=
+
+arrow
+aero
+->
+
+becomes
+maps to
+mapping to
+=>
+
+spread
+...
+
+branch
+?
+
+
+
+
+arguments
+$arguments
+
+async
+asynchronous
+$async
+
+await
+a weight
+a wait
+$await
+
+break
+brake
+$break
+
+case
+$start_line $case $__ $glue : $up $line $_ $line $break $down $line $_
+
+short case
+$start_line $case $__ $glue : $_
+
+catch
+$start_line $catch ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+short catch
+$start_line $catch ( $glue $__ $glue ) $_
+
+class
+$start_line $class $big $__ { $up $line $_ $down $line } $line $_
+
+short class
+$class { $__ }
+
+const
+constant
+$const
+
+continue
+$continue
+
+debugger
+$debugger
+
+default
+the default
+the fault
+$start_line $default $glue : $up $line $__ $down $line $_
+
+short default
+short the default
+short the fault
+$start_line $default $glue :
+
+delete
+deletion
+$delete
+
+do
+due
+$start_line $do { $up $line $__ $down $line } while ( $glue $_ $glue ) $glue ; $line $_
+
+else
+$start_line $else { $up $line $__ $down $line } $line $_
+
+else if
+$start_line $else $if ( $glue  $__ $glue ) { $up $line $_ $down $line } $line $_
+
+export
+$start_line $export
+
+extends
+$extends
+
+false
+$false
+
+finally
+$start_line $finally { $up $line $__ $down $line } $line $_
+
+for
+four
+$start_line $for ( $glue $__ $glue ; $_ $glue ; $_ $glue ) { $up $line $_ $down $line } $line $_
+
+spoon
+for in
+four in
+$start_line $for ( $glue $const $__ $in $_ $glue ) { $up $line $_ $down $line } $line $_
+
+fork
+for of
+four of
+$start_line $for ( $glue $const $__ $of $_ $glue ) { $up $line $_ $down $line } $line $_
+
+iterate
+$start_line $for ( $glue $let $__ $glue ; $_ $glue ; $_ $glue ++ $glue ) { $up $line $_ $down $line } $line $_
+
+procedure
+$start_line $function $__ $glue ( $glue $_ $glue ) { $up $line $_ $down $line } $line $_
+
+async procedure
+asynchronous procedure
+$start_line $async $function $__ $glue ( $glue $_ $glue ) { $up $line $_ $down $line } $line $_
+
+function
+$function ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+short function
+$function ( $glue $__ $glue ) { return $_ } $_
+
+lam
+lamb
+( $glue $__ $glue ) => $_
+
+lambda
+( $glue $__ $glue ) => { $up $line $_ $down $line } $_
+
+if
+$start_line $if ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+short if
+$if ( $glue $__ $glue ) $_
+
+import
+$start_line $import
+
+in
+$in
+
+instance of
+instanceof
+is an instance of
+$instanceof
+
+let
+$let
+
+new
+knew
+$new $big
+
+null
+nothing
+$null
+
+return
+$start_line $return
+
+short return
+$return
+
+super
+$super
+
+switch
+$start_line $switch ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+this
+$this
+
+throw
+$start_line $throw
+
+short throw
+$throw
+
+true
+$true
+
+try
+$start_line $try { $up $line $__ $down $line } $line catch ( $glue $_ $glue ) { $up $line $_ $down $line } $line $_
+
+type of
+the type of
+typeof
+$typeof
+
+undefined
+$undefined
+
+var
+variable
+$start_line $var
+
+short var
+short variable
+$var
+
+void
+$void
+
+while
+$start_line $while ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+with
+$with
+
+yield
+$yield
+
+.
+dot
+$glue . $glue
+
+,
+$glue ,
+
+call
+$glue ( $glue ) $__
+
+of
+$glue ( $glue $__ $glue ) $_
+
+group
+( $glue $__ $glue ) $_
+
+at
+$glue [ $glue $__ $glue ] $_
+
+list
+[ $glue $__ $glue ] $_
+
+block
+{ $up $line $__ $down $line } $_
+
+short block
+{ $__ } $_
+
+expand
+$up $line $__ $down $line
+
+then
+than
+and then
+$start_line
+
+bling
+$$
+
+-1
+- 1
+
+zero
+0
+
+one
+1
+
+two
+2
+
+three
+3
+
+five
+5
+
+six
+6
+
+seven
+7
+
+eight
+8
+
+nine
+9
+
+ten
+10
+
+eleven
+11
+
+twelve
+12
+
+thirteen
+13
+
+fourteen
+14
+
+fifteen
+15
+
+sixteen
+16
+
+seventeen
+17
+
+eighteen
+18
+
+nineteen
+19
+
+twenty
+20
+
+empty string
+""
+
+
+step back
+$blank
+
+step
+skip
+$step
+
+jump
+$step $step
+
+hurdle
+$step $step $step
+
+decline
+ignore
+$decline
+
+zoom
+$zoom
+
+decline all
+ignore all
+$decline_all
+
+ok
+okay
+finish
+$eol $line
+
+step right
+skip right
+$eol
+
+step down
+skip down
+$line
+
+alright
+all right
+$eol $line $line
+
+also
+$eol $glue , $line
+
+big step
+$line $line
+
+
+
+
+
+
+
+flat
+$flat
+
+snake
+$snake
+
+camel
+$camel
+
+big
+$big
+
+tall
+$tall
+
+tower
+$tower
+
+midline
+$midline
+
+lonely
+$lonely
+
+couple
+$couple
+
+triple
+$triple
+
+quadruple
+$quadruple
+
+stop
+$stop
+
+glue
+$glue
+
+verbatim
+$verbatim
+
+comment
+$comment
+
+for each
+for each
+
+index of
+index of
+
+
+
+Array of bytes
+$Int8Array
+
+Array of shorts
+$Int16Array
+
+Array of integers
+$Int32Array
+
+Unsigned array of bytes
+$Uint8Array
+
+Unsigned array of shorts
+$Uint16Array
+
+Unsigned array of integers
+$Uint32Array
+
+Array of floats
+$Float32Array
+
+Array of doubles
+$Float64Array
+
+
+tag
+< $glue $flat $__ $glue > $_
+
+closing tag
+< $glue / $glue $flat $__ $glue > $_
+
+single tag
+< $glue $flat $__ /> $_
+
+tag pair
+< $glue $flat $__ $glue > $glue $_ $glue < $glue / $glue $flat $_ $glue > $_
+
+Template inclusion
+<%= $__ %> $_
+
+attribute
+$stop $flat $__ $glue = $glue $_
+
+division
+< $glue div $__ $glue > $glue $_ $glue </ $glue div $glue > $_
+
+division class
+division with class
+< $glue div $class $glue = $glue $" $glue $__ $glue $" $_ $glue > $glue $_ $glue </ $glue div $glue > $_
+
+division id
+division with id
+< $glue div $id $glue = $glue $" $glue $__ $glue $" $_ $glue > $glue $_ $glue </ $glue div $glue > $_
+
+division class id
+division with class and id
+< $glue div $class $glue = $glue $" $glue $__ $glue $" $id $glue = $glue $" $glue $_ $glue $" $_ $glue > $glue $_ $glue </ $glue div $glue > $_
+
+span
+< $glue span $__ $glue > $glue $_ $glue </ $glue span $glue > $_
+
+span class
+span with class
+< $glue span $class $glue = $glue $" $glue $__ $glue $" $_ $glue > $glue $_ $glue </ $glue span $glue > $_
+
+span id
+span with id
+< $glue span $id $glue = $glue $" $glue $__ $glue $" $_ $glue > $glue $_ $glue </ $glue span $glue > $_
+
+span class id
+span with class and id
+< $glue span $class $glue = $glue $" $glue $__ $glue $" $id $glue = $glue $" $glue $_ $glue $" $_ $glue > $glue $_ $glue </ $glue span $glue > $_
+
+ID selector
+HTML color
+$# $glue $__
+
+Class Selector
+. $glue $__
+
+set style
+$start_line $midline $__ $glue : $_ $glue ; $line $_
+
+px
+$glue $px
+
+EM
+$glue $em
+
+VW
+$glue $vw
+
+VH
+$glue $vh
+
+pt
+$glue $pt
+
+%
+percent
+$glue %
+
+:
+$glue :
+
+(
+( $glue
+
+)
+$glue )
+
+Our GBA
+rgba
+color with alpha
+$rgba $glue ( $glue $__ $glue )
+
+RGB
+$rgb $glue ( $glue $__ $glue )
+
+document type html
+<! $glue $DOCTYPE $html $glue > $__
+
+#
+# $glue
+
+Paragraph
+< $glue p $glue > $glue $__ $glue </ $glue p $glue > $_
+
+
+Special
+$$ $glue $__ $glue $$ $_
+
+special display
+\[ $glue $__ $glue \] $_
+
+fraction
+\ $glue $frac $glue { $glue $__ $glue } $glue { $glue $_ $glue } $_
+
+power
+$__ $glue ^ $glue { $glue $_ $glue } $_
+
+pi
+pie
+\ $glue pi
+
+x
+ex
+$x
+
+y
+why
+$y
+
+
+my
+$this $glue . $glue $__
+
+low –
+low dash
+load ash
+lo dash
+lo –
+$_. $glue $__
+
+expect
+$expect $glue ( $glue $__ $glue ) $_
+
+to be
+$camel to be $glue ( $glue $__ $glue ) $_
+
+jason
+json

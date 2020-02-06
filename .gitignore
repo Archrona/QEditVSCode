@@ -1,3 +1,12 @@
 node_modules
 .vscode-test/
 *.vsix
+out/
+.vs/
+bin/
+obj/
+packages/
+*.dll
+*.exe
+*.exe.config
+*.pdb

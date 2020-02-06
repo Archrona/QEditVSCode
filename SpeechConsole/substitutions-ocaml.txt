@@ -1,0 +1,743 @@
+﻿$ apostrophe_is_identifier
+
+zero
+0
+
+one
+1
+
+two
+2
+
+three
+3
+
+five
+5
+
+six
+6
+
+seven
+7
+
+eight
+8
+
+nine
+9
+
+ten
+10
+
+eleven
+11
+
+twelve
+12
+
+thirteen
+13
+
+fourteen
+14
+
+fifteen
+15
+
+sixteen
+16
+
+seventeen
+17
+
+eighteen
+18
+
+nineteen
+19
+
+twenty
+20
+
+x
+ex
+x
+
+y
+why
+y
+
+u
+you
+u
+
+
+
+
+step back
+$blank
+
+step
+steps
+$step
+
+jump
+$step $step
+
+hurdle
+$step $step $step
+
+decline
+$decline
+
+zoom
+$zoom
+
+decline all
+$decline_all
+
+next line
+$eol $line
+
+step right
+steps right
+$eol
+
+step down
+steps down
+$line
+
+big step
+big steps
+$line $line
+
+expand
+$up $line $__ $down $line
+
+indent
+$up $line $__ $down $line $_
+
+then
+than
+and then
+$start_line
+
+finish
+$eol $glue ;; $line $__
+
+terminate
+$eol $glue ;;
+
+step over
+$eol $up $line $__
+
+step back
+$eol $down $line $__
+
+
+
+flat
+$flat
+
+snake
+$snake
+
+camel
+$camel
+
+big
+$big
+
+tall
+$tall
+
+tower
+$tower
+
+midline
+$midline
+
+lonely
+$lonely
+
+couple
+$couple
+
+triple
+$triple
+
+quadruple
+$quadruple
+
+stop
+space
+the
+and the
+$stop
+
+glue
+$glue
+
+verbatim
+$verbatim
+
+comment
+(* $verbatim $__ *) $_
+
+
+
+
+unit
+$unit
+
+int
+integer
+$int
+
+integer 32
+$int32
+
+integer 64
+$int64
+
+float
+$float
+
+bool
+boolean
+bullion
+$bool
+
+char
+$char
+
+string
+$string
+
+list
+$list
+
+array
+a ray
+$array
+
+prime
+'
+$glue '
+
+parameter
+par
+$stop ' $glue
+
+first
+$stop ' $glue $a
+
+second
+$stop ' $glue $b
+
+third
+$stop ' $glue $c
+
+
+
+
+nothing
+unit literal
+()
+
+with 32
+$glue $l
+
+with 64
+$glue $L
+
+true
+$true
+
+false
+$false
+
+character
+' $glue $__ $glue ' $_
+
+group
+topple
+tuple
+( $glue $__ $glue ) $_
+
+empty list
+[]
+
+list of
+items
+[ $glue $__ $glue ] $_
+
+array of
+a ray of
+item array
+[| $glue $__ $glue |] $_
+
+record
+block
+{ $__ } $_
+
+comma
+,
+$glue ,
+
+semicolon
+;
+$glue ;
+
+terminator
+terminate
+;;
+$glue ;;
+
+(
+( $glue
+
+)
+$glue )
+
+[
+[ $glue
+
+]
+] $glue
+
+{
+{
+
+}
+}
+
+
+
+define
+type
+$type
+
+define record
+type record
+$type $big $__ = { $_ } $_
+
+define variant
+type variant
+$type $big $__ = $up $line | $_ $down $line
+
+next variant
+$start_line | $__
+
+of
+$of
+
+case
+|
+
+pattern
+| $__ -> $_
+
+pattern when
+pattern guard
+| $__ when $_ -> $_
+
+pattern default
+default pattern
+| _ -> $__
+
+
+
+let
+$let
+
+recursive
+rec
+$rec
+
+mutable
+$mutable
+
+is
+equal
+equals
+=
+=
+
+in
+$in
+
+becomes
+<-
+
+with
+$with
+
+ref
+reference
+$ref
+
+assign
+assignment
+assigned to
+assign to
+:=
+
+at reference
+at ref
+! $glue
+
+at character
+at char
+$glue .[ $glue $__ $glue ] $_
+
+at element
+at index
+$glue .( $glue $__ $glue ) $_
+
+
+open
+$open $big $__
+
+fun
+$fun
+
+lambda
+$fun $__ -> ( $glue $_ $glue ) $_
+
+maps to
+arrow
+aero
+->
+
+function
+$function
+
+label
+~ $glue
+
+maybe
+? $glue
+
+maybe default
+?( $glue $__ = $_ $glue )
+
+none
+$None
+
+
+
+cons
+and then
+::
+
+.
+$glue . $glue
+
+if
+$if $__ $then $_ $else $_
+
+while
+$while $__ $do $_ $done
+
+for
+four
+$for $__ = $_ $to $_ $do $_ $done
+
+for down
+four down
+$for $__ = $_ $downto $_ $do $_ $done
+
+match
+$match $__
+
+try
+$try $__
+
+assert
+$assert $__
+
+lazy
+$lazy $__
+
+
+
+
+raise
+$raise
+
+raise no trace
+$raise_notrace
+
+invalid argument
+$invalid_arg
+
+fail with
+$failwith
+
+exit
+$Exit
+
+is not
+is not equal to
+<>
+
+below
+is below
+less than
+is less than
+<
+
+above
+is above
+greater than
+is greater than
+>
+
+at most
+is at most
+less than or equal to
+is less than or equal to
+<=
+
+at least
+is at least
+greater than or equal to
+is greater than or equal towtf 
+>=
+
+physically equals
+==
+
+does not physically equal
+!=
+
+not
+knot
+$not
+
+and
+&&
+&&
+
+or
+||
+||
+
+applied to
+apply to
+@@
+
+pass
+pass to
+passed to
+past to
+past two
+|>
+|>
+
+successor
+$succ
+
+predecessor
+$pred
+
+increment
+$incr
+
+decrement
+$decr
+
+
+plus
++
+
+minus
+-
+
+times
+*
+
+divide
+divided by
+/
+
+modulo
+remainder
+mod
+%
+
+absolute value
+abs
+$abs
+
+shift left
+left shift
+insertion
+$lsl
+
+shift right
+right shift
+extraction
+$asr
+
+unsigned shift right
+unsigned right shift
+$lsr
+
+logical not
+logical knot
+$lnot
+
+logical and
+&
+$land
+
+logical or
+|
+$lor
+
+logical x or
+logical xor
+$lxor
+
+
+
+
+float negative
+float negate
+-. $glue
+
+float plus
++.
+
+float minus
+-.
+
+float times
+*.
+
+float divide
+float divided by
+/.
+
+exponentiation
+to the power of
+to the power
+**
+
+square root
+sqrt
+$sqrt
+
+e to the
+exponential
+exp
+$exp
+
+
+
+stitch
+^
+^
+
+integer of float
+$int_of_float
+
+float of integer
+$float_of_int
+
+integer of char
+$int_of_char
+
+char of integer
+$char_of_int
+
+integer of string
+$int_of_string
+
+string of integer
+$string_of_int
+
+bool of string
+bullion of string
+boolean of string
+$bool_of_string
+
+string of bull
+string of bool
+string of bullion
+string of boolean
+$string_of_bool
+
+string of float
+$string_of_float
+
+float of string
+$float_of_string
+
+
+
+print char
+$print_char
+
+print string
+$print_string
+
+print bytes
+print bites
+$print_bytes
+
+print integer
+$print_int
+
+print float
+$print_float
+
+print line
+$print_endline
+
+print return
+$print_newline
+
+
+
+okay
+ok
+$Ok
+
+error
+$Error
+
+some
+$Some
+
+blank
+_
+
+
+access
+excess
+$xs
+
+wise
+whys
+$ys
+
+head
+$List $glue . $glue $hd
+
+tail
+$List $glue . $glue $tl
+
+
+
+
+
+
+
+
+
+
+

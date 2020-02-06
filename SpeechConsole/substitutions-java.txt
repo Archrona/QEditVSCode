@@ -1,0 +1,641 @@
+﻿zero
+0
+
+one
+1
+
+two
+2
+
+three
+3
+
+five
+5
+
+six
+6
+
+seven
+7
+
+eight
+8
+
+nine
+9
+
+ten
+10
+
+eleven
+11
+
+twelve
+12
+
+thirteen
+13
+
+fourteen
+14
+
+fifteen
+15
+
+sixteen
+16
+
+seventeen
+17
+
+eighteen
+18
+
+nineteen
+19
+
+twenty
+20
+
+x
+ex
+x
+
+y
+why
+y
+
+u
+you
+u
+
+
+
+
+step back
+$blank
+
+step
+steps
+$step
+
+jump
+$step $step
+
+hurdle
+$step $step $step
+
+decline
+$decline
+
+zoom
+$zoom
+
+decline all
+$decline_all
+
+next line
+$eol $line
+
+step right
+steps right
+$eol
+
+step down
+steps down
+$line
+
+big step
+big steps
+$line $line
+
+expand
+$up $line $__ $down $line
+
+then
+than
+and then
+$start_line
+
+finish
+$eol $glue ; $line $__
+
+terminate
+$eol $glue ;
+
+
+
+
+
+flat
+$flat
+
+snake
+$snake
+
+camel
+$camel
+
+big
+$big
+
+tall
+$tall
+
+tower
+$tower
+
+midline
+$midline
+
+lonely
+$lonely
+
+couple
+$couple
+
+triple
+$triple
+
+quadruple
+$quadruple
+
+stop
+$stop
+
+glue
+$glue
+
+verbatim
+$verbatim
+
+comment
+$comment
+
+
+
+
+
+
+
+
+
+
+is
+are
+equal
+be
+=
+
+plus
++
+
+minus
+-
+
+times
+*
+
+divide
+divided by
+/
+
+modulo
+remainder
+%
+
+increment
+$glue ++
+
+decrement
+$glue --
+
+plus equals
++=
+
+minus equals
+-=
+
+times equals
+*=
+
+divide equals
+/=
+
+modulo equals
+%=
+
+equals
+is equal to
+==
+
+is not
+not equals
+is not equal to
+!=
+
+below
+is below
+less than
+is less than
+<
+
+above
+is above
+greater than
+is greater than
+>
+
+at most
+is at most
+less than or equal to
+is less than or equal to
+<=
+
+at least
+is at least
+greater than or equal to
+is greater than or equal to
+>=
+
+not
+! $glue 
+
+and
+&&
+
+or
+||
+
+shift left
+left shift
+insertion
+<<
+
+shift right
+right shift
+extraction
+>>
+
+unsigned shift right
+unsigned right shift
+>>>
+
+and equals
+&=
+
+or equals
+|=
+
+xor equals
+^=
+
+shift left equals
+left shift equals
+<<=
+
+shift right equals
+right shift equals
+>>=
+
+unsigned shift right equals
+unsigned right shift equals
+>>>=
+
+scope
+$glue :: $glue
+
+spread
+…
+$glue ... $glue
+
+branch
+( $glue $__ ? $_ : $_  $glue ) $_
+
+
+abstract
+$abstract
+
+assert
+$assert
+
+bullion
+bouillon
+boolean
+bool
+$boolean
+
+break
+brake
+$break
+
+byte
+bite
+$byte
+
+case
+$start_line $case $__ $glue : $up $line $_ $line $break $down $line $_
+
+catch
+$start_line $catch ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+char
+$char
+
+class
+$class $big
+
+continue
+$continue
+
+default
+the default
+the fault
+$start_line $default $glue : $up $line $__ $down $line $_
+
+do
+due
+$start_line $do { $up $line $__ $down $line } while ( $glue $_ $glue ) $glue ; $line $_
+
+double
+$double
+
+else
+$start_line $else { $up $line $__ $down $line } $_
+
+else if
+$start_line $else $if ( $glue  $__ $glue ) { $up $line $_ $down $line } $_
+
+enum
+enumeration
+$enum
+
+exports
+$exports
+
+extends
+$extends $big
+
+false
+$false
+
+final
+$final
+
+finally
+$start_line $finally { $up $line $_ $down $line } $line $_
+
+float
+$float
+
+for
+four
+$start_line $for ( $glue $__ $glue ; $_ $glue ; $_ $glue ) { $up $line $_ $down $line } $line $_
+
+for each
+four each
+4 each
+$start_line $for ( $glue $__ : $_ $glue ) { $up $line $_ $down $line } $line $_
+
+if
+$start_line $if ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+implements
+$implements $big
+
+import
+$import
+
+integer
+int
+$int
+
+interface
+$interface $big
+
+long
+$long
+
+module
+$module
+
+native
+$native
+
+new
+knew
+$new
+
+null
+nothing
+$null
+
+package
+$package
+
+private
+$private
+
+protected
+$protected
+
+public
+$public
+
+requires
+$requires
+
+return
+$return
+
+short
+$short
+
+static
+$static
+
+super
+$super
+
+switch
+$start_line $switch ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+synchronized
+$synchronized ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+this
+$this
+
+throw
+$start_line $throw
+
+throws
+$throws $big
+
+transient
+$transient
+
+true
+$true
+
+try
+$start_line $try { $up $line $__ $down $line } $line catch ( $glue $_ $glue ) { $up $line $_ $down $line } $line $_
+
+var
+variable
+$var
+
+void
+$void
+
+volatile
+$volatile
+
+wchar_t
+wide char
+wide character
+$wchar_t
+
+while
+$start_line $while ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+
+
+
+
+
+
+
+;
+semicolon
+$glue ;
+
+%
+percent
+$glue %
+
+:
+$glue :
+
+(
+( $glue
+
+)
+$glue )
+
+#
+# $glue
+
+.
+dot
+$glue . $glue
+
+arrow
+aero
+$glue -> $glue
+
+,
+$glue ,
+
+call
+$glue ( $glue ) $__
+
+of
+$glue ( $glue $__ $glue ) $_
+
+group
+( $glue $__ $glue ) $_
+
+at
+$glue [ $glue $__ $glue ] $_
+
+bracket
+brackets
+[ $glue $__ $glue ] $_
+
+block
+{ $up $line $__ $down $line } $_
+
+with
+$glue < $glue $big $__ $glue > $_
+
+cast
+( $glue $__ $glue ) $glue ( $glue $_ $glue ) $_
+
+character
+' $glue $__ $glue '
+
+hex
+hexadecimal
+$0x $glue $flat $__
+
+
+declare
+$big $__ $stop $_ = $_ $glue ; $line $_
+
+field
+$private $big $__ $stop $_ $glue ; $line $_
+
+
+
+
+
+print line
+$System $glue . $glue $out $glue . $glue $println $glue ( $glue $__ $glue ); $line $_
+
+cash 
+cache
+
+
+
+albert
+$ArrayList $glue < $glue $__ $glue > $_
+
+linda
+$LinkedList $glue < $glue $__ $glue > $_
+
+lisa
+$List $glue < $glue $__ $glue > $_
+
+hester
+$HashSet $glue < $glue $__ $glue > $_
+
+taser
+$TreeSet $glue < $glue $__ $glue > $_
+
+sally
+$Set $glue < $glue $__ $glue > $_
+
+hambone
+ham bone
+ham
+$HashMap $glue < $glue $__ $glue > $_
+
+tim
+timothy
+$TreeMap $glue < $glue $__ $glue > $_
+
+mike
+michael
+$Map $glue < $glue $__ $glue > $_
+
+big integer
+$Integer
+
+matrix
+$Matrix4f
+
+vector
+$Vector3f
+
+vector for
+vector four
+vector 4
+$Vector4f‪
+
+
+
+
+
+

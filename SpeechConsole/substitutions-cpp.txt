@@ -1,0 +1,775 @@
+﻿zero
+0
+
+one
+1
+
+two
+2
+
+three
+3
+
+five
+5
+
+six
+6
+
+seven
+7
+
+eight
+8
+
+nine
+9
+
+ten
+10
+
+eleven
+11
+
+twelve
+12
+
+thirteen
+13
+
+fourteen
+14
+
+fifteen
+15
+
+sixteen
+16
+
+seventeen
+17
+
+eighteen
+18
+
+nineteen
+19
+
+twenty
+20
+
+x
+ex
+x
+
+y
+why
+y
+
+u
+you
+u
+
+
+
+
+step back
+$blank
+
+step
+steps
+$step
+
+jump
+$step $step
+
+hurdle
+$step $step $step
+
+decline
+$decline
+
+zoom
+$zoom
+
+decline all
+$decline_all
+
+next line
+$eol $line
+
+step right
+steps right
+$eol
+
+step down
+steps down
+$line
+
+big step
+big steps
+$line $line
+
+expand
+$up $line $__ $down $line
+
+then
+than
+and then
+$start_line
+
+finish
+$eol $glue ; $line $__
+
+terminate
+$eol $glue ;
+
+
+
+
+
+flat
+$flat
+
+snake
+$snake
+
+camel
+$camel
+
+big
+$big
+
+tall
+$tall
+
+tower
+$tower
+
+midline
+$midline
+
+lonely
+$lonely
+
+couple
+$couple
+
+triple
+$triple
+
+quadruple
+$quadruple
+
+stop
+$stop
+
+glue
+$glue
+
+verbatim
+$verbatim
+
+comment
+$comment
+
+
+
+
+
+
+
+
+
+pound if
+$start_line # $glue $if
+
+pound else if
+$start_line # $glue $elif
+
+pound else
+$start_line # $glue $else
+
+pound and if
+pound end if
+$start_line # $glue $endif
+
+pound if defined
+pound is defined
+$start_line # $glue $ifdef $tower $__
+
+pound if not defined
+pound is not defined
+$start_line # $glue $ifndef $tower $__
+
+pound defined
+pound define
+$start_line # $glue $define $tower $__
+
+pound undefined
+pound undefine
+$start_line # $glue $undef $tower $__
+
+pound include
+include
+$start_line # $glue $include $__
+
+pound include local
+include local
+$start_line # $glue $include " $glue $__ $glue . $glue h $glue " $line $_
+
+pound include global
+include global
+$start_line # $glue $include < $glue $flat $__ $glue > $line $_
+
+pound pragmatic
+$start_line # $glue $pragma $__
+
+pound pragmatic once
+pragmatic once
+$start_line # $glue $pragma $once $line $__
+
+
+
+
+is
+are
+equal
+be
+=
+
+plus
++
+
+minus
+-
+
+times
+*
+
+divide
+divided by
+/
+
+modulo
+remainder
+%
+
+increment
+++
+
+decrement
+--
+
+plus equals
++=
+
+minus equals
+-=
+
+times equals
+*=
+
+divide equals
+/=
+
+modulo equals
+%=
+
+equals
+is equal to
+==
+
+is not
+not equals
+is not equal to
+!=
+
+below
+is below
+less than
+is less than
+<
+
+above
+is above
+greater than
+is greater than
+>
+
+at most
+is at most
+less than or equal to
+is less than or equal to
+<=
+
+at least
+is at least
+greater than or equal to
+is greater than or equal to
+>=
+
+not
+! $glue 
+
+and
+&&
+
+or
+||
+
+shift left
+left shift
+insertion
+<<
+
+shift right
+right shift
+extraction
+>>
+
+unsigned shift right
+unsigned right shift
+>>>
+
+and equals
+&=
+
+or equals
+|=
+
+xor equals
+^=
+
+shift left equals
+left shift equals
+<<=
+
+shift right equals
+right shift equals
+>>=
+
+unsigned shift right equals
+unsigned right shift equals
+>>>=
+
+scope
+$glue :: $glue
+
+spread
+…
+$glue ... $glue
+
+branch
+( $glue $__ ? $_ : $_  $glue ) $_
+
+pointer
+what is at
+* $glue
+
+address
+address of
+& $glue
+
+reference
+ref
+&
+
+double reference
+double ref
+&&
+
+
+
+
+
+align as
+a line as
+$alignas $glue ( $glue $__ $glue ) $_
+
+a line of
+align of
+$alignof $glue ( $glue $__ $glue ) $_
+
+auto
+otto
+$auto
+
+bullion
+bouillon
+boolean
+bool
+$bool
+
+break
+brake
+$break
+
+case
+$start_line $case $__ $glue : $up $line $_ $line $break $down $line $_
+
+catch
+$start_line $catch ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+char
+$char
+
+char 16
+char sixteen
+$char16_t
+
+char 32
+char thirty two
+$char32_t
+
+class
+$class
+
+const
+constant
+$const
+
+const expression
+constant expression
+$constexpr
+
+const cast
+constant cast
+$const_cast $glue < $glue $__ $glue > $glue ( $glue $_ $glue ) $_
+
+continue
+$continue
+
+decltype
+declared type
+declare type
+$decltype $glue ( $__ $glue ) $_
+
+default
+the default
+the fault
+$start_line $default $glue : $up $line $__ $down $line $_
+
+delete
+deletion
+$delete
+
+do
+due
+$start_line $do { $up $line $__ $down $line } while ( $glue $_ $glue ) $glue ; $line $_
+
+double
+$double
+
+dynamic cast
+$dynamic_cast $glue < $glue $__ $glue > $glue ( $glue $_ $glue ) $_
+
+else
+$start_line $else { $up $line $__ $down $line } $_
+
+else if
+$start_line $else $if ( $glue  $__ $glue ) { $up $line $_ $down $line } $_
+
+enum
+enumeration
+$enum
+
+explicit
+$explicit
+
+extern
+external
+$extern
+
+false
+$false
+
+float
+$float
+
+for
+four
+$start_line $for ( $glue $__ $glue ; $_ $glue ; $_ $glue ) { $up $line $_ $down $line } $line $_
+
+friend
+$friend
+
+go to
+goto
+$goto
+
+if
+$start_line $if ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+in line
+inline
+$inline
+
+integer
+int
+$int
+
+long
+$long
+
+mutable
+$mutable
+
+namespace
+name space
+$namespace
+
+new
+knew
+$new
+
+no except
+no exceptions
+no exception
+no accept
+know except
+know exceptions
+know exception
+know accept
+$noexcept
+
+null
+nothing
+$null
+
+null pointer
+nothing pointer
+$nullptr
+
+operator
+$operator
+
+private
+$private $glue :
+
+protected
+$protected $glue :
+
+public
+$public $glue :
+
+reinterpret cast
+$reinterpret_cast $glue < $glue $__ $glue > $glue ( $glue $_ $glue ) $_
+
+return
+$return
+
+short
+$short
+
+signed
+$signed
+
+size of
+sizeof
+$sizeof
+
+size of type
+sizeof type
+$sizeof $glue ( $glue $__ $glue ) $_
+
+size of ellipsis
+size of ...
+size of …
+$sizeof $glue $... $glue ( $glue $__ $glue ) $_
+
+static
+$static
+
+static assert
+static_assert
+$static_assert $glue ( $glue $__ $glue ) $_
+
+static cast
+$static_cast $glue < $glue $__ $glue > $glue ( $glue $_ $glue ) $_
+
+struct
+structure
+$struct
+
+switch
+$start_line $switch ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+template
+$template $glue < $glue $__ $glue > $_
+
+template class
+$template $glue < $glue $class $big $__ $glue > $_
+
+this
+$this
+
+throw
+$start_line $throw
+
+true
+$true
+
+try
+$start_line $try { $up $line $__ $down $line } $line catch ( $glue $_ $glue ) { $up $line $_ $down $line } $line $_
+
+typedef
+type definition
+$typedef
+
+type id
+id of type
+$typeid $glue ( $glue $__ $glue ) $_
+
+type name
+name of type
+$typename
+
+union
+$union
+
+unsigned
+$unsigned
+
+using
+$using
+
+virtual
+$virtual
+
+void
+$void
+
+volatile
+$volatile
+
+wchar_t
+wide char
+wide character
+$wchar_t
+
+while
+$start_line $while ( $glue $__ $glue ) { $up $line $_ $down $line } $line $_
+
+
+
+
+
+
+
+
+;
+semicolon
+$glue ;
+
+%
+percent
+$glue %
+
+:
+$glue :
+
+(
+( $glue
+
+)
+$glue )
+
+#
+# $glue
+
+.
+dot
+$glue . $glue
+
+arrow
+aero
+$glue -> $glue
+
+,
+$glue ,
+
+call
+$glue ( $glue ) $__
+
+of
+$glue ( $glue $__ $glue ) $_
+
+group
+( $glue $__ $glue ) $_
+
+at
+$glue [ $glue $__ $glue ] $_
+
+list
+{ $__ } $_
+
+bracket
+brackets
+[ $glue $__ $glue ] $_
+
+block
+{ $up $line $__ $down $line } $_
+
+with
+$glue < $glue $__ $glue > $_
+
+character
+' $glue $__ $glue '
+
+hex
+hexadecimal
+$0x $glue $flat $__
+
+destruct
+destructor
+~ $glue $__
+
+construct
+constructor
+$eol $up $line : $__ $down $line { $up $line $_ $down $line } $_
+
+function pointer
+$__ ( $glue * $glue $_ $glue ) $glue ( $glue $_ $glue ) $_
+
+stud
+study
+$std $glue :: $glue $snake $__
+
+Class template
+$start_line $class $__ { $line $public $glue : $up $line $_ $line $down $line $private $glue : $up $line $_ $line $down $line } $glue ; $line
+
+
+
+
+
+
+see out
+sea out
+c out
+cout
+cout
+
+see in
+sea in
+c in
+cin
+cin
+
+unique pointer
+unique_ptr
+unique_ptr
+
+shared pointer
+shared_ptr
+shared_ptr
+
+size_t
+size t
+size type
+$size_t
+
+
+
+
+

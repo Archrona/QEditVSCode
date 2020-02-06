@@ -1,0 +1,37 @@
+﻿[
+	{
+		"name": "C++",
+		"extensions": [ ".c", ".h", ".cpp", ".hpp", ".tpp", ".cc" ],
+		"substitutions": "substitutions-cpp.txt"
+	},
+	{
+		"name": "C#",
+		"extensions": [ ".cs" ],
+		"substitutions": "substitutions-csharp.txt"
+	},
+	{
+		"name": "Java",
+		"extensions": [ ".java" ],
+		"substitutions": "substitutions-java.txt"
+	},
+	{
+		"name": "JavaScript",
+		"extensions": [ ".js", ".ts", ".html", ".css", ".json" ],
+		"substitutions": "substitutions-js.txt"
+	},
+	{
+		"name": "LaTeX",
+		"extensions": [ ".tex", ".latex" ],
+		"substitutions": "substitutions-latex.txt"
+	},
+	{
+		"name": "OCaml",
+		"extensions": [ ".ml" ],
+		"substitutions": "substitutions-ocaml.txt"
+	},
+	{
+		"name": "Python",
+		"extensions": [ ".py" ],
+		"substitutions": "substitutions-python.txt"
+	}
+]

@@ -1,0 +1,1223 @@
+﻿$ math
+
+
+
+$$$$$$$$$$$$$$$  NUMBERS $$$$$$$$$$$$$$$$$$
+
+zero
+0
+
+one
+1
+
+two
+2
+
+three
+3
+
+five
+5
+
+six
+6
+
+seven
+7
+
+eight
+8
+
+nine
+9
+
+ten
+10
+
+eleven
+11
+
+twelve
+12
+
+thirteen
+13
+
+fourteen
+14
+
+fifteen
+15
+
+sixteen
+16
+
+seventeen
+17
+
+eighteen
+18
+
+nineteen
+19
+
+twenty
+20
+
+
+
+
+$$$$$$$$$$$$$$$  LETTERS $$$$$$$$$$$$$$$$$$
+
+andrew
+$a
+
+brian
+bryan
+$b
+
+charles
+$c
+
+david
+$d
+
+edward
+eugene
+you gene
+you jean
+$e
+
+frank
+$f
+
+george
+$g
+
+henry
+$h
+
+isaac
+$i
+
+james
+$j
+
+kenneth
+$k
+
+louis
+lewis
+$l
+
+michael
+$m
+
+norman
+$n
+
+oscar
+$o
+
+patrick
+$p
+
+quentin
+$q
+
+robert
+$r
+
+steven
+stephen
+$s
+
+thomas
+$t
+
+ulysses
+$u
+
+vincent
+$v
+
+william
+$w
+
+savior
+xavier
+$x
+
+josef
+yosef
+joseph
+$y
+
+zachary
+$z
+
+
+adams
+$A
+
+baker
+$B
+
+clark
+clarke
+$C
+
+diaz
+$D
+
+evans
+evens
+$E
+
+flores
+florez
+$F
+
+garcia
+$G
+
+howard
+$H
+
+ibsen
+$I
+
+jones
+$J
+
+king
+$K
+
+lopez
+$L
+
+miller
+$M
+
+nelson
+$N
+
+osborn
+osborne
+$O
+
+porter
+$P
+
+quincy
+$Q
+
+rogers
+roger
+$R
+
+smith
+$S
+
+taylor
+tailor
+$T
+
+upton
+uptown
+$U
+
+valdes
+valdez
+$V
+
+watson
+watt son
+watt sun
+$W
+
+xu
+shu
+shoe
+shoo
+hsu
+$X
+
+young
+yung
+$Y
+
+zappa
+zap a
+zap of
+zap
+$Z
+
+
+
+
+
+
+$$$$$$$$$$$$$$$  QEDIT SUPPORT $$$$$$$$$$$$$$$$$$
+
+
+step back
+$blank
+
+step
+steps
+$step
+
+jump
+$step $step
+
+hurdle
+$step $step $step
+
+decline
+$decline
+
+zoom
+$zoom
+
+decline all
+$decline_all
+
+next line
+$eol $line
+
+step right
+steps right
+$eol
+
+step down
+steps down
+$line
+
+big step
+big steps
+$line $line
+
+expand
+$up $line $__ $down $line
+
+indent
+$up $line $__ $down $line $_
+
+then
+than
+and then
+$start_line
+
+step over
+$eol $up $line $__
+
+step back
+$eol $down $line $__
+
+the
+$stop
+
+
+flat
+$flat
+
+snake
+$snake
+
+camel
+$camel
+
+big
+$big
+
+tall
+$tall
+
+tower
+$tower
+
+midline
+$midline
+
+lonely
+$lonely
+
+couple
+$couple
+
+triple
+$triple
+
+quadruple
+$quadruple
+
+stop
+space
+the
+and the
+$stop
+
+glue
+$glue
+
+verbatim
+$verbatim
+
+
+$$$$$$$$$$$$$$$ FUNDAMENTAL LATEX $$$$$$$$$$$$$$$$$$
+
+do
+due
+\ $glue $flat $__ $glue
+
+text
+$verbatim $__
+
+
+,
+$glue ,
+
+;
+$glue ;
+
+
+
+
+plus
++
+
+minus
+-
+
+equals
+is
+=
+
+factorial
+$glue !
+
+/
+slash
+quotient
+quotient of
+quotient with
+/
+
+(
+( $glue
+
+)
+$glue )
+
+[
+[ $glue
+
+]
+$glue ]
+
+below
+is below
+less than
+is less than
+<
+
+above
+as above
+greater than
+is greater than
+>
+
+vertical bar
+bar
+for which
+divides
+factor of
+is a factor of
+|
+\mid
+
+prime
+'
+$glue '
+
+prime prime
+$glue ''
+
+colon
+:
+$glue :
+
+
+
+
+$$$$$$$$$$$$$$$$$   GROUPING   $$$$$$$$$$$$$$$$$$$$$
+
+of
+$glue ( $glue $__ $glue ) $_
+
+group
+\left( $__ \right) $_
+
+at
+$glue [ $glue $__ $glue ] $_
+
+brackets
+\left[ $__ \right] $_
+
+block
+$glue { $glue $__ $glue } $_
+
+set
+\left\{ $glue $__ $glue \right\} $_
+
+absolute value
+absolute
+abs
+length
+length of
+| $glue $__ $glue | $_
+
+norm
+magnitude
+norm of
+magnitude of
+\| $glue $__ glue \| $_
+
+floor
+floor of
+\lfloor $__ \rfloor $_
+
+ceiling
+ceiling of
+\lceil $__ \rceil $_
+
+vector
+angles
+\langle $__ \rangle $_
+
+
+
+
+
+
+
+$$$$$$$$$$$$$$$ SPECIAL CHARACTERS $$$$$$$$$$$$$$$$$$
+
+alpha
+\alpha
+
+beta
+\beta
+
+gamma
+\gamma
+
+big gamma
+large gamma
+tall gamma
+\Gamma
+
+delta
+\delta
+
+big delta
+large delta
+tall delta
+\Delta
+
+epsilon
+\epsilon
+
+variant epsilon
+strange epsilon
+curvy epsilon
+cute epsilon
+\varepsilon
+
+theta
+data
+\theta
+
+variant theta
+strange theta
+variant data
+strange data
+\vartheta
+
+big theta
+large theta
+tall theta
+big data
+large data
+tall data
+\Theta
+
+iota
+\iota
+
+kappa
+\kappa
+
+variant kappa
+strange kappa
+\varkappa
+
+lambda
+\lambda
+
+big lambda
+large lambda
+tall lambda
+\Lambda
+
+mu
+mew
+micro
+\mu
+
+new
+\nu
+
+xi
+see
+\xi
+
+big xi
+large xi
+tall xi
+big see
+large see
+tall see
+\Xi
+
+pi
+pie
+\pi
+
+big pi
+large pi
+tall pi
+big pie
+large pie
+tall pie
+\Pi
+
+row
+rho
+\rho
+
+variant row
+strange row
+variant rho
+strange rho
+\varrho
+
+sigma
+\sigma
+
+variant sigma
+strange sigma
+\varsigma
+
+big sigma
+tall sigma
+large sigma
+\Sigma
+
+tau
+tow
+towel
+\tau
+
+upsilon
+\upsilon
+
+big upsilon
+tall upsilon
+large upsilon
+\Upsilon
+
+fee
+phi
+\phi
+
+variant fee
+strange fee
+variant phi
+strange phi
+\varphi
+
+big fee
+tall fee
+large fee
+big phi
+tall phi
+large phi
+\Phi
+
+kai
+chi
+\chi
+
+sigh
+sai
+\psi
+
+big sigh
+toll side
+tall sigh
+tall sign
+large size
+large sigh
+big psi
+tall psi
+large psi
+\Psi
+
+omega
+\omega
+
+big omega
+tall omega
+large omega
+\Omega
+
+
+
+
+
+
+x
+ex
+x
+
+y
+why
+y
+
+u
+you
+u
+
+
+
+
+
+
+naturals
+natural
+natural numbers
+\mathds{N}
+
+integers
+integer
+\mathds{Z}
+
+rationals
+rational
+\mathds{Q}
+
+reals
+real
+real numbers
+\mathds{R}
+
+complexes
+complex
+complex numbers
+\mathds{C}
+
+
+
+
+$$$$$$$$$$$$$$$ MATH SYMBOLS $$$$$$$$$$$$$$$$$$
+
+is not
+is not equal to
+does not equal
+not equals
+is not equal
+not equals to
+\neq
+
+at most
+less than or equal to
+less than or equal
+is less than or equal to
+is less than or equal
+\leq
+
+at least
+greater than or equal to
+greater than or equal
+is greater than or equal to
+is greater than or equal
+\geq
+
+equivalent
+is equivalent
+\equiv
+
+approximately
+approximate
+is approximately
+is approximate
+\approx
+
+congruent
+is congruent
+congruent to
+is congruent to
+\cong
+
+similar
+similar to
+is similar to
+\sim
+
+subset
+subset of
+is a subset of
+\subseteq
+
+superset
+superset of
+is a superset of
+\supseteq
+
+proper subset
+proper subset of
+is a proper subset of
+\subset
+
+proper superset
+proper superset of
+is a proper superset of
+\supset
+
+not subset
+not subset of
+is not subset of
+is not a subset of
+\nsubseteq
+
+not superset
+not superset of
+is not superset of
+is not a superset of
+\nsupseteq
+
+therefore
+\therefore
+
+in
+is in
+\in
+
+not in
+is not in
+\notin
+
+plus minus
+plus or minus
+\pm
+
+minus plus
+minus or plus
+\mp
+
+cross
+across
+\times
+
+division sign
+\div
+
+*
+asterisk
+\ast
+
+star
+pointy star
+\star
+
+union
+cup
+\cup
+
+intersect
+intersection
+cap
+\cap
+
+and
+logical and
+\land
+
+or
+logical or
+\lor
+
+.
+dot
+\cdot
+
+diamond
+\diamond
+
+set minus
+\setminus
+
+circ
+circle
+compose
+\circ
+
+exists
+there exist
+there exists
+\exists
+
+not exists
+there does not exist
+there exists no
+there is no
+there exist no
+not exist
+\nexists
+
+for all
+for every
+every
+\forall
+
+not
+\neg
+
+arrow
+aero
+right arrow
+becomes
+goes to
+\to
+
+left arrow
+backwards arrow
+comes from
+gets
+\leftarrow
+
+maps 2
+maps two
+maps to
+maps onto
+maps into
+\mapsto
+
+implies
+\implies
+
+left right arrow
+bidirectional arrow
+\leftrightarrow
+
+if and only if
+iff
+\iff
+
+empty set
+\emptyset
+
+
+
+
+
+
+
+partial
+\partial
+
+h bar
+\hbar
+
+real part
+\Re
+
+imaginary part
+\Im
+
+grad
+gradient
+\nabla
+
+box
+\Box
+
+infinity
+\infty
+
+
+
+sign
+sine
+sin
+\sin
+
+cosine
+cosign
+cos
+\cos
+
+tangent
+\tan
+
+cot
+caught
+cotangent
+co - tangent
+\cot
+
+secant
+\sec
+
+cosecant
+co - secant
+\csc
+
+
+
+
+
+
+…
+dots
+\dots
+
+middle dots
+\cdots
+
+vertical dots
+\vdots
+
+diagonal dots
+\ddots
+
+list dots
+\dotsc
+
+binary dots
+\dotsb
+
+multiplication dots
+\dotsm
+
+
+mod
+modulo
+modular
+\bmod
+
+big mod
+big modulo
+big modular
+\pmod{ $glue $__ $glue } $_
+
+
+gap
+quad
+\quad
+
+small gap
+\,
+
+medium gap
+\:
+
+large-cap
+large - cap
+large gap
+\;
+
+negative gap
+\!
+
+
+
+
+$$$$$$$$$$$$$$$$$   FONT FACES   $$$$$$$$$$$$$$$$$$$$
+
+text
+\mathrm{ $glue $verbatim $__ $glue } $_
+
+roman
+\mathrm{ $glue $__ $glue } $_
+
+heavy
+\mathbf{ $glue $__ $glue } $_
+
+fracture
+\mathfrak{ $glue $__ $glue } $_
+
+calligraphy
+cal
+\mathcal{ $glue $__ $glue } $_
+
+blackboard
+black
+\mathbb{ $glue $__ $glue } $_
+
+double
+\mathds{ $glue $__ $glue } $_
+
+
+$$$$$$$$$$$$$$$$$$$   ACCENTS   $$$$$$$$$$$$$$$$$$$$$
+
+hat
+\hat{ $__ } $_
+
+small bar
+\bar{ $__ } $_
+
+grave
+\grave{ $__ } $_
+
+over .
+over dot
+\dot{ $__ } $_
+
+bar
+over line
+overline
+\overline{ $__ } $_
+
+
+
+$$$$$$$$$$$$$$$$$   HIGH LEVEL   $$$$$$$$$$$$$$$$$$$$
+
+to
+to the
+to the power
+to the power of
+power
+exponent
+$glue ^
+
+squared
+to the second
+to the second power
+^2
+
+cubed
+to the third
+to the third power
+^3
+
+to the fourth
+to the fourth power
+^4
+
+to the fifth
+to the fifth power
+^5
+
+inverse
+reciprocal
+^{-1}
+
+sub
+subscript
+under
+from
+$glue _ $glue
+
+subzero
+sub zero
+_0
+
+sub one
+_1
+
+sub to
+sub two
+_2
+
+sub three
+_3
+
+fraction
+\frac{ $__ }{ $_ } $_
+
+square root
+\sqrt{ $__ } $_
+
+cube root
+\sqrt[3]{ $__ } $_
+
+root
+nth root
+\sqrt[ $glue $__ $glue ]{ $_ } $_
+
+choose
+binomial
+\binom{ $__ }{ $_ } $_
+
+
+limit
+\lim \limits_{ $__ } $_
+
+integral
+\int
+
+sum
+some
+\sum
+
+product
+\prod
+
+big union
+\bigcup
+
+big intersection
+\bigcap
+
+big and
+\bigwedge
+
+big or
+bigger
+\big vee
+
+
+
+probability
+P\left( $__ \right)
+
+break
+\\ $line
+
+align
+\begin{align*} $up $line $__ $down $line \end{align*} $line $_
+
+mark
+& $glue
+
+cases
+\begin{cases} $up $line $__ $down $line \end{cases} $line $_
+
+two cases
+to cases
+2 cases
+\begin{cases} $up $line $__ & $_ \\ $_ & $_ $down $line \end{cases} $line $_
+
+three cases
+3 cases
+\begin{cases} $up $line $__ & $_ \\ $__ & $_ \\ $_ & $_ $down $line \end{cases} $line $_
+
+
+such that
+$\text{ $such $that $}
+
+for each
+$\text{ $for $each $}

@@ -1,0 +1,589 @@
+﻿zero
+0
+
+one
+1
+
+two
+2
+
+three
+3
+
+four
+4
+
+five
+5
+
+six
+6
+
+seven
+7
+
+eight
+8
+
+nine
+9
+
+ten
+10
+
+eleven
+11
+
+twelve
+12
+
+thirteen
+13
+
+fourteen
+14
+
+fifteen
+15
+
+sixteen
+16
+
+seventeen
+17
+
+eighteen
+18
+
+nineteen
+19
+
+twenty
+20
+
+x
+ex
+x
+
+y
+why
+y
+
+u
+you
+u
+
+n
+an
+n
+
+
+
+
+step back
+$blank
+
+step
+steps
+$step
+
+jump
+$step $step
+
+hurdle
+$step $step $step
+
+decline
+$decline
+
+zoom
+$zoom
+
+decline all
+$decline_all
+
+next line
+$eol $line
+
+step right
+steps right
+$eol
+
+step down
+steps down
+$line
+
+big step
+big steps
+$line $line
+
+expand
+$up $line $__ $down $line
+
+then
+than
+and then
+$start_line
+
+okay
+ok
+and then
+also
+finish
+$eol $line $__
+
+
+
+join line
+$eol \
+
+
+flat
+$flat
+
+snake
+$snake
+
+camel
+$camel
+
+big
+$big
+
+tall
+$tall
+
+tower
+$tower
+
+midline
+$midline
+
+lonely
+$lonely
+
+couple
+$couple
+
+triple
+$triple
+
+quadruple
+$quadruple
+
+stop
+$stop
+
+glue
+$glue
+
+verbatim
+$verbatim
+
+comment
+# $verbatim $__ $line $_
+
+explain
+""" $glue $verbatim $__ $glue """ $line $_
+
+
+
+
+
+
+is
+are
+equal
+be
+=
+
+plus
++
+
+minus
+-
+
+times
+*
+
+divide
+divided by
+/
+
+exponent
+exponentiation
+to the
+to the power of
+to the power
+**
+
+integer division
+floor division
+florida vision
+integer divide
+floor divide
+//
+
+modulo
+remainder
+%
+
+plus equals
++=
+
+minus equals
+-=
+
+times equals
+*=
+
+divide equals
+/=
+
+power equals
+exponent equals
+exponentiation equals
+to the equals
+to the power of equals
+to the power equals
+**=
+
+integer division equals
+floor division equals
+florida vision equals
+integer divide equals
+floor divide equals
+//=
+
+modulo equals
+%=
+
+equals
+is equal to
+==
+
+is not
+not equals
+is not equal to
+!=
+
+below
+is below
+less than
+is less than
+<
+
+above
+is above
+greater than
+is greater than
+>
+
+at most
+is at most
+less than or equal to
+is less than or equal to
+<=
+
+at least
+is at least
+greater than or equal to
+is greater than or equal to
+>=
+
+not
+$not
+
+and
+$and
+
+or
+$or
+
+identity is
+$is
+
+identity is not
+$is $not
+
+in
+is in
+$in
+
+is not in
+$not $in
+
+shift left
+left shift
+<<
+
+shift right
+right shift
+>>
+
+and equals
+&=
+
+or equals
+|=
+
+xor equals
+^=
+
+shift left equals
+left shift equals
+<<=
+
+shift right equals
+right shift equals
+>>=
+
+
+
+false
+$False
+
+none
+nothing
+$None
+
+true
+$True
+
+as
+$as
+
+assert
+$assert
+
+async
+asynchronous
+$async
+
+await
+a wait
+$await
+
+break
+$break
+
+class
+$class $big $__ $glue : $up $line $_ $down $line $_
+
+continue
+$continue
+
+define
+the fine
+def
+deaf
+$def
+
+procedure
+$def $snake $__ $glue ( $glue $_ $glue ) $glue : $up $line $_ $down $line $line $_
+
+method
+$def $snake $__ $glue ( $glue $self $glue $_ $glue ) $glue : $up $line $_ $down $line $line $_
+
+delete
+del
+dell
+deletion
+$del
+
+then
+than
+$eol $glue : $up $line $__ $down $line $_
+
+else if
+$elif
+
+else
+$else $glue : $up $line $__ $down $line $_
+
+except
+$except
+
+finally
+$finally
+
+for
+$for
+
+from
+$from
+
+global
+$global
+
+if
+$if
+
+import
+$import
+
+lambda
+$lambda
+
+nonlocal
+$nonlocal
+
+pass
+$pass
+
+raise
+$raise
+
+return
+$return
+
+self
+$self
+
+try
+$try
+
+while
+$while
+
+with
+$with
+
+yield
+$yield
+
+
+
+special
+__ $glue $__ $glue __ $_
+
+private
+__ $glue $__
+
+internal
+_ $glue $__
+
+
+
+
+
+
+
+
+
+;
+semicolon
+$glue ;
+
+:
+$glue :
+
+thru
+through
+slice
+$glue : $glue
+
+
+(
+( $glue
+
+)
+$glue )
+
+#
+#
+
+.
+dot
+$glue . $glue
+
+arrow
+aero
+$glue -> $glue
+
+,
+$glue ,
+
+call
+$glue ( $glue ) $__
+
+of
+$glue ( $glue $__ $glue ) $_
+
+group
+( $glue $__ $glue ) $_
+
+at
+$glue [ $glue $__ $glue ] $_
+
+bracket
+brackets
+items
+[ $glue $__ $glue ] $_
+
+braces
+{ $glue $__ $glue } $_
+
+block
+{ $up $line $__ $down $line } $_
+
+character
+' $glue $verbatim $__ $glue ' $_
+
+formatted
+$f $glue
+
+
+positional
+positional arguments
+spread
+* $glue $__
+
+keyword
+keyword arguments
+keywords
+** $glue $__
+
+my
+$self $glue . $glue $__
+
+
+length
+$len $glue ( $glue $__ $glue ) $_
+
+range
+$range $glue ( $glue $__ $glue ) $_
+
+print
+$print $glue ( $glue $__ $glue ) $_
+
+constructor
+$def __ $glue $init $glue __ $glue ( $glue $self $__ $glue ) $glue : $glue $up $line $_ $down $line $line $_
+
+
+
+
+
+
+tough
+tf
+
+carrots
+keras
+
+nipple
+np
+
+in it
+init
+
+cv two
+cv to
+cv2
+
+scott
+sklearn
+
+a range
+arange
+
